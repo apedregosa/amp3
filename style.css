@@ -30,6 +30,27 @@
 /*--------------------------------------------------------------
 # Layout
 --------------------------------------------------------------*/
+body {
+	padding-top: 600px;
+	background-color: #FAFAB7;
+	background-image: url(images/header_BG_3.png), url(images/header_BG_repeat.png);
+}
+
+header.nav.uk-sticky.uk-box-shadow-medium {
+	position: relative;
+	top: -600px;
+	box-shadow: none;
+}
+	header.nav.uk-sticky.uk-box-shadow-medium.uk-sticky-fixed {
+		background: #FAFAB7 url(images/header_BG_3.png) no-repeat top right;
+	}
+
+footer#colophon {
+	height: 548px;
+	padding-top: 500px;
+	padding-bottom: 0;
+	background: #FAFAB7 url(images/footer_BG4.png) no-repeat top right;
+}
 
 /*--------------------------------------------------------------
 # Navigation
